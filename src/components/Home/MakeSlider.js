@@ -5,6 +5,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { ProjectData, responsive } from "./data";
 import Project from "./Project";
+import MakeProjectSlider from "./MakeProjectSlider";
+import MakeSliderThreeData from "./MakeSliderThreeData";
 const MakeSlider = () => {
   return (
     <section
@@ -18,6 +20,22 @@ const MakeSlider = () => {
             <Project key={data.id} data={data}></Project>
           ))}
         </Carousel>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <MakeProjectSlider></MakeProjectSlider>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <MakeSliderThreeData></MakeSliderThreeData>
       </div>
     </section>
   );

@@ -1,0 +1,8 @@
+.cardstylee {
+  border: 1px solid #079ed5;
+  border-top: 1px solid #5fbd13;
+
+  border-radius: 12px;
+  border-bottom-right-radius: 50px;
+  padding: 20px;
+}

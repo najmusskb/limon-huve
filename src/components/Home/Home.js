@@ -6,8 +6,9 @@ import icon2 from "../../Phase/Media asset/Home page/Hero Elements/Gun.png";
 import icon3 from "../../Phase/Media asset/Home page/Hero Elements/pill.png";
 import icon4 from "../../Phase/Media asset/Home page/Hero Elements/portal.png";
 import "./Home.css";
-
 import MakeSlider from "./MakeSlider";
+import ViewAll from "./ViewAll";
+import ButtonData from "./ButtonData";
 
 const Home = () => {
   return (
@@ -35,7 +36,6 @@ const Home = () => {
             <img src={icon2} alt="/" className="w-52 w-80 absulate img-3" />
           </div>
         </div>
-
         <div className=" flex button-flex ">
           <div>
             <button className="mt-5 btn btn-primary bg-gradient-to-r from-purple-500 to-pink-500">
@@ -58,9 +58,10 @@ const Home = () => {
       <br />
       <br />
       <h1 className="text-start mx-5 text-4xl text-white">Meet The Chast</h1>
+      <ButtonData></ButtonData>
       <MakeSlider></MakeSlider>
+      {/* <ViewAll></ViewAll> */}
     </section>
   );
 };
-
 export default Home;
