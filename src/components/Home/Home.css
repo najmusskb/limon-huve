@@ -1,0 +1,33 @@
+.the {
+  font-size: 128px;
+  color: white;
+  font-style: italic;
+  font: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.rics {
+  font-size: 128px;
+  font-style: italic;
+  font: bold;
+}
+.img-1 {
+  margin-top: -250px;
+
+  filter: blur(1.56743px);
+}
+.img-2 {
+  margin-top: -50px;
+  margin-left: 250px;
+}
+.img-3 {
+  margin-left: 700px;
+  margin-top: -75px;
+}
+.img-4 {
+  margin-left: 600px;
+  margin-top: -100px;
+}
+.button-flex {
+  margin-top: 350px;
+  margin-left: 300px;
+}
