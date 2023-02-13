@@ -47,12 +47,12 @@ export const ProjectData = [
   {
     id: 6,
     imageurl: "https://rickandmortyapi.com/api/character/avatar/6.jpeg",
-    name: "Abadango Cluster Princess",
+    name: "Abadango ",
   },
   {
     id: 7,
     imageurl: "https://rickandmortyapi.com/api/character/avatar/7.jpeg",
-    name: "Genetic experiment",
+    name: "Genetic",
   },
   {
     id: 8,

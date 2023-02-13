@@ -9,6 +9,7 @@ import "./Home.css";
 import MakeSlider from "./MakeSlider";
 import ViewAll from "./ViewAll";
 import ButtonData from "./ButtonData";
+import DataEnd from "../DataEnd";
 
 const Home = () => {
   return (
@@ -58,9 +59,15 @@ const Home = () => {
       <br />
       <br />
       <h1 className="text-start mx-5 text-4xl text-white">Meet The Chast</h1>
+
       <ButtonData></ButtonData>
       <MakeSlider></MakeSlider>
-      {/* <ViewAll></ViewAll> */}
+      <ViewAll></ViewAll>
+      <br />
+      <br />
+      <br />
+      <br />
+      <DataEnd></DataEnd>
     </section>
   );
 };

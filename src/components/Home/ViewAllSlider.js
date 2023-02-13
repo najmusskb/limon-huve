@@ -9,5 +9,4 @@ const ViewAllSlider = ({ data }) => {
     </div>
   );
 };
-
 export default ViewAllSlider;
