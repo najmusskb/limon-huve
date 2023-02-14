@@ -15,5 +15,4 @@ const Project = ({ data }) => {
     </div>
   );
 };
-
 export default Project;

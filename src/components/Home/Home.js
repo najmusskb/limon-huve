@@ -9,7 +9,7 @@ import "./Home.css";
 import MakeSlider from "./MakeSlider";
 import ViewAll from "./ViewAll";
 import ButtonData from "./ButtonData";
-import DataEnd from "../DataEnd";
+import DataEnd from "./DataEnd";
 
 const Home = () => {
   return (
